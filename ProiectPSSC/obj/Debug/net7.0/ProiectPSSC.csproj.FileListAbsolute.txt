@@ -1,0 +1,6 @@
+E:\Faculta\an4\pssc\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ProiectPSSC.csproj.AssemblyReference.cache
+E:\Faculta\an4\pssc\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ProiectPSSC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Faculta\an4\pssc\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ProiectPSSC.AssemblyInfoInputs.cache
+E:\Faculta\an4\pssc\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ProiectPSSC.AssemblyInfo.cs
+E:\Faculta\an4\pssc\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ProiectPSSC.csproj.CoreCompileInputs.cache
+E:\Faculta\an4\pssc\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ProiectPSSC.sourcelink.json
