@@ -21,9 +21,9 @@ namespace Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ProductDTO>().ToTable("Products").HasKey(p => p.Uid);
-            modelBuilder.Entity<OrderHeaderDTO>().ToTable("OrderHeaders").HasKey(oh => oh.Uid);
-            modelBuilder.Entity<OrderLineDTO>().ToTable("OrderLines").HasKey(ol => ol.Uid);
+            modelBuilder.Entity<ProductDTO>().ToTable("Products").HasKey(p => p.ProductId);
+            modelBuilder.Entity<OrderHeaderDTO>().ToTable("OrderHeaders").HasKey(oh => oh.OrderHeaderId);
+            modelBuilder.Entity<OrderLineDTO>().ToTable("OrderLines").HasKey(ol => ol.OrderLineId);
             
         }
 

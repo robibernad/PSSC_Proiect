@@ -8,11 +8,11 @@ namespace Data.Models
 {
     public class OrderLineDTO
     {
-        public string Uid { get; set; }
+        public string OrderLineId { get; set; }
         public int Quantity { get; set; }
         public double TotalPrice { get; set; }
 
-        public string OrderHeaderUid { get; set; }
-        public string ProductUid { get; set; }
+        public string OrderHeaderId { get; set; }
+        public string ProductId { get; set; }
     }
 }

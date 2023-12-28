@@ -8,16 +8,16 @@ namespace Domain.Models
 {
     public class Product
     {
-         public Product(string uid, string name, string description, int quantity, double price)
+         public Product(string productId, string name, string description, int quantity, double price)
         {
-            Uid = uid;
+            productId = productId;
             Name = name;
             Description = description;
             Quantity = quantity;
             Price = price;
         }
 
-        public string Uid { get; set; }
+        public string productId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public int Quantity { get; set; }

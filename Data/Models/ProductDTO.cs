@@ -11,13 +11,12 @@ namespace Data.Models
 {
     public class ProductDTO
     {
-        public string Uid { get; set; }
+        public string ProductId { get; set; }
         public string Name { get; set; }
 
         [Column(TypeName = "TEXT")]
         public string Description { get; set; }
         public int Quantity { get; set; }
         public double Price { get; set; }
-
     }
 }
