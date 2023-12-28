@@ -26,7 +26,7 @@ namespace Domain.Operations
             orderHeadersRepository = new OrderHeadersRepository(dbContext);
             orderLinesRepository = new OrderLinesRepository(dbContext);
         }
-        public static ICart addProductToCart(EmptyCart emptyCart, IReadOnlyCollection<UnvalidatedProduct> unvalidatedProducts)
+        public ICart addProductToCart(EmptyCart emptyCart, IReadOnlyCollection<UnvalidatedProduct> unvalidatedProducts)
         {
             if (unvalidatedProducts.Count > 0)
             {
@@ -67,13 +67,13 @@ namespace Domain.Operations
             }
         }
 
-        public static CalculatedCart calculateCart(ValidatedCart validatedCart)
+        public CalculatedCart calculateCart(ValidatedCart validatedCart)
         {
             double total = validatedCart.products.Sum(product => product.Price);
             return new CalculatedCart(validatedCart.client, validatedCart.products, total);
         }
 
-        public static ICart payCart(CalculatedCart calculatedCart)
+        public ICart payCart(CalculatedCart calculatedCart)
         {
             bool payed = true;
             if (payed)
