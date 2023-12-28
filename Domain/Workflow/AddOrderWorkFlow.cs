@@ -12,7 +12,7 @@ using static Domain.Models.ShoppingEvent;
 
 namespace Domain.Workflow
 {
-    internal class AddOrderWorkFlow
+    public class AddOrderWorkFlow
     {
         public readonly ProiectPsscDb dbContext;
         CartOperation cartOperation;
