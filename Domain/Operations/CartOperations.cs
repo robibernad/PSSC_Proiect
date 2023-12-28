@@ -6,88 +6,94 @@ using System.Text;
 using System.Threading.Tasks;
 using Data.Repositories;
 using static Domain.Models.Cart;
+using Domain.Models;
+using Domain.Mappers;
 
 
 namespace Domain.Operations
 {
     public class CartOperation
     {
-    //    private readonly CartAppDbContext dbContext;
-    //    ProductsRepository productsRepository;
-    //    OrderHeadersRepository orderHeadersRepository;
-    //    OrderLinesRepository orderLinesRepository;
+        private readonly ProiectPsscDb dbContext;
+        ProductRepository productsRepository;
+        OrderHeadersRepository orderHeadersRepository;
+        OrderLinesRepository orderLinesRepository;
 
-    //    public CartOperation(CartAppDbContext dbContext)
-    //    {
-    //        this.dbContext = dbContext;
-    //        productsRepository = new ProductsRepository(dbContext);
-    //        orderHeadersRepository = new OrderHeadersRepository(dbContext);
-    //        orderLinesRepository = new OrderLinesRepository(dbContext);
-    //    }
-    //    public static ICart addProductToCart(EmptyCart emptyCart, IReadOnlyCollection<UnvalidatedProduct> unvalidatedProducts)
-    //    {
-    //        return unvalidatedProducts.Count > 0 ? new UnvalidatedCart(emptyCart.client, unvalidatedProducts) : emptyCart;
-    //    }
+        public CartOperation(ProiectPsscDb dbContext)
+        {
+            this.dbContext = dbContext;
+            productsRepository = new ProductRepository(dbContext);
+            orderHeadersRepository = new OrderHeadersRepository(dbContext);
+            orderLinesRepository = new OrderLinesRepository(dbContext);
+        }
+        public static ICart addProductToCart(EmptyCart emptyCart, IReadOnlyCollection<UnvalidatedProduct> unvalidatedProducts)
+        {
+            if (unvalidatedProducts.Count > 0)
+            {
+                return new UnvalidatedCart(emptyCart.client, unvalidatedProducts);
+            }
+            else
+            {
+                return emptyCart;
+            }
+        }
 
-    //    public async Task<ICart> validateCart(UnvalidatedCart unvalidatedCart)
-    //    {
-    //        bool isValid = true;
-    //        List<ValidatedProduct> cartProducts = new List<ValidatedProduct>();
-    //        foreach (var product in unvalidatedCart.products)
-    //        {
-    //            ValidatedProduct validProduct = await productsRepository.TryGetProduct(product.productId, product.quantity);
-    //            if (validProduct != null)
-    //            {
-    //                cartProducts.Add(validProduct);
-    //            }
-    //            else
-    //            {
-    //                isValid = false;
-    //                break;
-    //            }
-    //        }
+        public async Task<ICart> validateCart(UnvalidatedCart unvalidatedCart)
+        {
+            bool isValid = true;
+            List<Product> cartProducts = new List<Product>();
+            foreach (var product in unvalidatedCart.products)
+            {
+                Product validProduct = ProductMapper.MapToProduct(await productsRepository.TryGetProduct(product.Id, product.Quantity));
+                if (validProduct != null)
+                {
+                    cartProducts.Add(validProduct);
+                }
+                else
+                {
+                    isValid = false;
+                    break;
+                }
+            }
 
-    //        return isValid ? new ValidatedCart(unvalidatedCart.client, cartProducts) : unvalidatedCart;
-    //    }
+            if (isValid)
+            {
+                return new ValidatedCart(unvalidatedCart.client, cartProducts);
+            }
+            else
+            {
+                return unvalidatedCart;
 
-    //    public static CalculatedCart calculateCart(ValidatedCart validatedCart)
-    //    {
-    //        double total = validatedCart.products.Sum(product => product.price);
+            }
+        }
 
-    //        return new CalculatedCart(validatedCart.client, validatedCart.products, total);
-    //    }
+        public static CalculatedCart calculateCart(ValidatedCart validatedCart)
+        {
+            double total = validatedCart.products.Sum(product => product.Price);
+            return new CalculatedCart(validatedCart.client, validatedCart.products, total);
+        }
 
-    //    public static ICart payCart(CalculatedCart calculatedCart)
-    //    {
-    //        //PaymentWorkflow paymentWorkflow = new PaymentWorkflow();
-    //        //PaymentCommand paymentCommand = new PaymentCommand(calculatedCart.price);
-    //        //IPaymentEvent res = paymentWorkflow.execute(paymentCommand);
-    //        bool payed = true;
-    //        //res.Match(
-    //        //    whenPaymentSucceedEvent: @event =>
-    //        //    {
-    //        //        Console.WriteLine($"The cart was payed with {@event.paymentMethod.name}");
-    //        //        payed = true;
-    //        //        return @event;
-    //        //    },
-    //        //    whenPaymentFaileddEvent: @event =>
-    //        //    {
-    //        //        Console.WriteLine($"{@event.error}");
-    //        //        payed = false;
-    //        //        return @event;
-    //        //    }
-    //        //);
-    //        return payed ? new PaidCart(calculatedCart.client, calculatedCart.products, calculatedCart.price, DateTime.Now) : calculatedCart;
-    //    }
+        public static ICart payCart(CalculatedCart calculatedCart)
+        {
+            bool payed = true;
+            if (payed)
+            {
+                return new PaidCart(calculatedCart.client, calculatedCart.products, calculatedCart.price, DateTime.Now);
+            }
+            else
+            {
+                return calculatedCart;
+            }
+        }
 
-    //    public async Task sendCart(PaidCart cart)
-    //    {
-    //        string orderId = await orderHeadersRepository.createNewOrderHeader(cart.client, cart.finalPrice, cart.data.ToString());
-    //        foreach (var product in cart.products)
-    //        {
-    //            await productsRepository.TryRemoveStoc(product.productID.Value, product.quantity);
-    //            await orderLinesRepository.AddProductLine(product, orderId);
-    //        }
-    //    }
+        public async Task sendCart(PaidCart cart)
+        {
+            string orderId = await orderHeadersRepository.createNewOrderHeader(cart.client.clientId.ToString(), cart.client.firstName, cart.client.lastName, cart.client.phoneNumber, cart.client.address, cart.finalPrice, cart.data.ToString());
+            foreach (var product in cart.products)
+            {
+                await productsRepository.TryRemoveStoc(product.productId, product.Quantity);
+                await orderLinesRepository.AddProductLine(product.productId, product.Quantity, product.Price, orderId);
+            }
+        }
     }
 }
