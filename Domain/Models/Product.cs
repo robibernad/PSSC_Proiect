@@ -10,14 +10,14 @@ namespace Domain.Models
     {
          public Product(string productId, string name, string description, int quantity, double price)
         {
-            productId = productId;
+            ProductId = productId;
             Name = name;
             Description = description;
             Quantity = quantity;
             Price = price;
         }
 
-        public string productId { get; set; }
+        public string ProductId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public int Quantity { get; set; }

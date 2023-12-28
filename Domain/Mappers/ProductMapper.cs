@@ -31,7 +31,7 @@ namespace Domain.Mappers
 
             return new ProductDTO
             {
-                ProductId = product.productId,
+                ProductId = product.ProductId,
                 Name = product.Name,
                 Description = product.Description,
                 Quantity = product.Quantity,

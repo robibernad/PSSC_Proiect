@@ -37,7 +37,6 @@ namespace Domain.Operations
                 return emptyCart;
             }
         }
-
         public async Task<ICart> validateCart(UnvalidatedCart unvalidatedCart)
         {
             bool isValid = true;
@@ -45,6 +44,8 @@ namespace Domain.Operations
             foreach (var product in unvalidatedCart.products)
             {
                 Product validProduct = ProductMapper.MapToProduct(await productsRepository.TryGetProduct(product.Id, product.Quantity));
+                validProduct.Quantity = product.Quantity;
+                validProduct.Price = validProduct.Price * product.Quantity;
                 if (validProduct != null)
                 {
                     cartProducts.Add(validProduct);
@@ -91,8 +92,8 @@ namespace Domain.Operations
             string orderId = await orderHeadersRepository.createNewOrderHeader(cart.client.clientId.ToString(), cart.client.firstName, cart.client.lastName, cart.client.phoneNumber, cart.client.address, cart.finalPrice, cart.data.ToString());
             foreach (var product in cart.products)
             {
-                await productsRepository.TryRemoveStoc(product.productId, product.Quantity);
-                await orderLinesRepository.AddProductLine(product.productId, product.Quantity, product.Price, orderId);
+                await productsRepository.TryRemoveStoc(product.ProductId, product.Quantity);
+                await orderLinesRepository.AddProductLine(product.ProductId, product.Quantity, product.Price, orderId);
             }
         }
     }

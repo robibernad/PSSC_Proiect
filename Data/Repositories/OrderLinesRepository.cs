@@ -35,11 +35,11 @@ namespace Data.Repositories
         public async Task AddProductLine(string productId, int quantity, double price, string orderID)
         {
             OrderLineDTO orderLine = new OrderLineDTO();
-            orderLine.OrderLineId = orderID;
+            orderLine.OrderLineId = await GenerateRandomID();
             orderLine.ProductId = productId;
             orderLine.Quantity = quantity;
             orderLine.TotalPrice = price;
-            orderLine.OrderLineId = await GenerateRandomID();
+            orderLine.OrderHeaderId = orderID;
             await dbContext.OrderLines.AddAsync(orderLine);
             dbContext.SaveChanges();
         }
