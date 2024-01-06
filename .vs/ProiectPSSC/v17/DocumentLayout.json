@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA3B3ABE-F7CE-420A-8B80-2813FCCB6863}|API\\API.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3B3ABE-F7CE-420A-8B80-2813FCCB6863}|API\\API.csproj|solutionrelative:api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBAAC355-8558-4E27-8551-9C6D2BAB0B4C}|ProiectPSSC\\ProiectPSSC.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\proiectpssc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBAAC355-8558-4E27-8551-9C6D2BAB0B4C}|ProiectPSSC\\ProiectPSSC.csproj|solutionrelative:proiectpssc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\data\\models\\orderlinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|solutionrelative:data\\models\\orderlinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\workflow\\removeworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\workflow\\removeworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\data\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|solutionrelative:data\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\data\\proiectpsscdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|solutionrelative:data\\proiectpsscdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\data\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +27,24 @@
       "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\workflow\\addproductworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\workflow\\addproductworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\workflow\\addorderworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\workflow\\addorderworkflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\models\\shoppingevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\shoppingevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\data\\models\\orderlinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|solutionrelative:data\\models\\orderlinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\data\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|solutionrelative:data\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA3B3ABE-F7CE-420A-8B80-2813FCCB6863}|API\\API.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA3B3ABE-F7CE-420A-8B80-2813FCCB6863}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA3B3ABE-F7CE-420A-8B80-2813FCCB6863}|API\\API.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +55,20 @@
       "RelativeMoniker": "D:0:0:{FA3B3ABE-F7CE-420A-8B80-2813FCCB6863}|API\\API.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\data\\proiectpsscdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1C2269-8CDD-4A86-B2DC-A86EB76204A3}|Data\\Data.csproj|solutionrelative:data\\proiectpsscdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBAAC355-8558-4E27-8551-9C6D2BAB0B4C}|ProiectPSSC\\ProiectPSSC.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\proiectpssc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBAAC355-8558-4E27-8551-9C6D2BAB0B4C}|ProiectPSSC\\ProiectPSSC.csproj|solutionrelative:proiectpssc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|e:\\faculta\\an4\\pssc\\proiect\\pssc_proiect\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C7148E-D323-4707-8A0C-C7CC4FC6752A}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Workflow\\AddProductWorkFlow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Workflow\\AddProductWorkFlow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +78,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "ShoppingEvent.cs",
+              "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Models\\ShoppingEvent.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ShoppingEvent.cs",
+              "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Models\\ShoppingEvent.cs",
+              "RelativeToolTip": "Domain\\Models\\ShoppingEvent.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAewBcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-06T16:36:14.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RemoveWorkFlow.cs",
+              "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Workflow\\RemoveWorkFlow.cs",
+              "RelativeDocumentMoniker": "Domain\\Workflow\\RemoveWorkFlow.cs",
+              "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Workflow\\RemoveWorkFlow.cs",
+              "RelativeToolTip": "Domain\\Workflow\\RemoveWorkFlow.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAiwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-06T16:26:32.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-06T15:32:52.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddOrderWorkFlow.cs",
+              "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Workflow\\AddOrderWorkFlow.cs",
+              "RelativeDocumentMoniker": "Domain\\Workflow\\AddOrderWorkFlow.cs",
+              "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Workflow\\AddOrderWorkFlow.cs",
+              "RelativeToolTip": "Domain\\Workflow\\AddOrderWorkFlow.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwEsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-06T15:27:56.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\API\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\API\\Controllers\\CartController.cs",
+              "RelativeToolTip": "API\\Controllers\\CartController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAcwDEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-06T15:27:46.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Client.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Client.cs",
@@ -70,12 +155,11 @@
               "RelativeToolTip": "Domain\\Models\\Client.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADwvxYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-11T20:29:19.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-11T20:29:19.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "AddProductWorkFlow.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Workflow\\AddProductWorkFlow.cs",
               "RelativeDocumentMoniker": "Domain\\Workflow\\AddProductWorkFlow.cs",
@@ -83,12 +167,11 @@
               "RelativeToolTip": "Domain\\Workflow\\AddProductWorkFlow.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-11T19:47:57.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-11T19:47:57.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Class1.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
@@ -96,12 +179,11 @@
               "RelativeToolTip": "Domain\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-11T19:47:07.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-11T19:47:07.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "API\\WeatherForecast.cs",
@@ -109,43 +191,44 @@
               "RelativeToolTip": "API\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-11T19:38:47.547Z"
+              "WhenOpened": "2023-12-11T19:38:47.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-11T19:38:44.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "OrderHeaderDTO.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Models\\OrderHeaderDTO.cs",
               "RelativeDocumentMoniker": "Data\\Models\\OrderHeaderDTO.cs",
               "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Models\\OrderHeaderDTO.cs",
               "RelativeToolTip": "Data\\Models\\OrderHeaderDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-11T19:03:30.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "OrderLineDTO.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Models\\OrderLineDTO.cs",
               "RelativeDocumentMoniker": "Data\\Models\\OrderLineDTO.cs",
               "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Models\\OrderLineDTO.cs",
               "RelativeToolTip": "Data\\Models\\OrderLineDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-11T19:03:30.176Z",
               "EditorCaption": ""
@@ -158,7 +241,7 @@
               "RelativeDocumentMoniker": "Data\\Models\\ProductDTO.cs",
               "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Models\\ProductDTO.cs",
               "RelativeToolTip": "Data\\Models\\ProductDTO.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-11T19:03:30.179Z",
               "EditorCaption": ""
@@ -171,14 +254,14 @@
               "RelativeDocumentMoniker": "Domain\\Models\\Product.cs",
               "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Models\\Product.cs",
               "RelativeToolTip": "Domain\\Models\\Product.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-11T19:03:30.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "Cart.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Cart.cs",
@@ -191,27 +274,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\ProiectPSSC\\Program.cs",
               "RelativeDocumentMoniker": "ProiectPSSC\\Program.cs",
               "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\ProiectPSSC\\Program.cs",
               "RelativeToolTip": "ProiectPSSC\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-11T19:03:30.187Z"
+              "WhenOpened": "2023-12-11T19:03:30.187Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "ProiectPsscDb.cs",
               "DocumentMoniker": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\ProiectPsscDb.cs",
               "RelativeDocumentMoniker": "Data\\ProiectPsscDb.cs",
               "ToolTip": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\ProiectPsscDb.cs",
               "RelativeToolTip": "Data\\ProiectPsscDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAxwDAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-11T19:03:30.19Z"
+              "WhenOpened": "2023-12-11T19:03:30.19Z",
+              "EditorCaption": ""
             }
           ]
         }

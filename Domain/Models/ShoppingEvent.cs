@@ -13,6 +13,10 @@ namespace Domain.Models
             public DateTime date;
             public double totalPrice;
 
+            internal ShoppingSucceedEvent()
+            {
+
+            }
             internal ShoppingSucceedEvent(DateTime date, double totalPrice)
             {
                 this.date = date;

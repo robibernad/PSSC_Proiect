@@ -15,9 +15,12 @@ using (var dbContext = new ProiectPsscDb(dbContextBuilder))
     dbContext.Database.Migrate();
 }
 
-Client client = new Client("Ursei", "Alexandru", 073243223423, "Strada Bernabeu");
-List<UnvalidatedProduct> products = new List<UnvalidatedProduct>() { new UnvalidatedProduct { Id = "1", Quantity = 2} };
+Client client = new Client("asd238as", "as238dad", 073243223423, "Strada Bernabeu");
+List<UnvalidatedProduct> products = new List<UnvalidatedProduct>() { new UnvalidatedProduct { Id = "3", Quantity = 1} };
 AddOrderWorkFlow workflow = new AddOrderWorkFlow(new ProiectPsscDb(dbContextBuilder));
 workflow.execute(client, products);
+var orderIdToDelete = "a0e15c6d-af3e-48a5-be72-a79002aa77fc";
+RemoveWorkflow removeWorkflow = new RemoveWorkflow(new ProiectPsscDb(dbContextBuilder));
+var removeResult = removeWorkflow.Execute(orderIdToDelete).Result; 
 Console.WriteLine("Done");
 Console.ReadKey();

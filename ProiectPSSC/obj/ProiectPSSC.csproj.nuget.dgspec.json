@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\ProiectPSSC\\ProiectPSSC.csproj": {}
+    "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\ProiectPSSC\\ProiectPSSC.csproj": {}
   },
   "projects": {
-    "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Data\\Data.csproj": {
+    "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Data\\Data.csproj",
+        "projectUniqueName": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Data\\obj\\",
+        "projectPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\robib\\.nuget\\packages\\",
+        "outputPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "F:\\info\\visual studio\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\robib\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -80,24 +81,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Domain\\Domain.csproj": {
+    "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Domain\\obj\\",
+        "projectPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\robib\\.nuget\\packages\\",
+        "outputPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "F:\\info\\visual studio\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\robib\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,8 +115,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Data\\Data.csproj": {
-                "projectPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Data\\Data.csproj"
+              "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj": {
+                "projectPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj"
               }
             }
           }
@@ -150,24 +152,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\ProiectPSSC\\ProiectPSSC.csproj": {
+    "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\ProiectPSSC\\ProiectPSSC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\ProiectPSSC\\ProiectPSSC.csproj",
+        "projectUniqueName": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\ProiectPSSC\\ProiectPSSC.csproj",
         "projectName": "ProiectPSSC",
-        "projectPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\ProiectPSSC\\ProiectPSSC.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\ProiectPSSC\\obj\\",
+        "projectPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\ProiectPSSC\\ProiectPSSC.csproj",
+        "packagesPath": "C:\\Users\\robib\\.nuget\\packages\\",
+        "outputPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\ProiectPSSC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "F:\\info\\visual studio\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\robib\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -183,11 +186,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Data\\Data.csproj": {
-                "projectPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Data\\Data.csproj"
+              "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj": {
+                "projectPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj"
               },
-              "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\An2-4Poli\\AN4POLI\\SEM1\\PSSC\\PSSC_Proiect\\Domain\\Domain.csproj"
+              "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj"
               }
             }
           }
@@ -223,7 +226,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

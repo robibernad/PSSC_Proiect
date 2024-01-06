@@ -51,5 +51,33 @@ namespace API.Controllers
             return Ok();
         }
 
+        [HttpDelete()]
+        public async Task<IActionResult> RemoveOrder(string orderHeaderId)
+        {
+            RemoveWorkflow removeWorkflow = new RemoveWorkflow(_dbContext);
+            var result = await removeWorkflow.Execute(orderHeaderId);
+
+            bool success = false;
+
+            result.Match(
+                whenShoppingFailedEvent: @event =>
+                {
+                    success = false;
+                    return @event;
+                },
+                whenShoppingSucceedEvent: @event =>
+                {
+                    success = true;
+                    return @event;
+                }
+            );
+
+            if (!success)
+            {
+                return BadRequest();
+            }
+
+            return Ok();
+        }
     }
 }

@@ -34,6 +34,17 @@ namespace Data
                 optionsBuilder.UseSqlServer("Server=localhost;Database=PsscDb;Trusted_Connection=True;TrustServerCertificate=True");
             }
         }
+
+        public async Task UpdateStockAsync(string productId, int quantityToAdd)
+        {
+            var product = await Products.FirstOrDefaultAsync(p => p.ProductId == productId);
+
+            if (product != null)
+            {
+                product.Quantity += quantityToAdd;
+                await SaveChangesAsync();
+            }
+        }
     }
 }
 
