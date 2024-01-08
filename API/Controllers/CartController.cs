@@ -145,6 +145,36 @@ namespace API.Controllers
             return Ok();
         }
 
+        [HttpGet("Get Bill")]
+        public async Task<IActionResult> GetBill(string orderHeaderId)
+        {
+            CreateBillWorkFlow createBill = new CreateBillWorkFlow(_dbContext);
+
+            var result = await createBill.GeneratePdfForOrder(orderHeaderId);
+
+            bool success = false;
+
+            result.Match(
+                whenShoppingFailedEvent: @event =>
+                {
+                    success = false;
+                    return @event;
+                },
+                whenShoppingSucceedEvent: @event =>
+                {
+                    success = true;
+                    return @event;
+                }
+            );
+
+            if (!success)
+            {
+                return BadRequest();
+            }
+
+            return Ok();
+        }
+
         public class ModifyOrderRequest
         {
             public string OrderHeaderId { get; set; }

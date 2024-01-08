@@ -297,12 +297,25 @@ D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\P
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\ProiectPSSC.pdb
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Azure.Core.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Azure.Identity.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\BouncyCastle.Crypto.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\CSharp.Choices.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\CSharp.Choices.Attributes.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.barcodes.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.bouncy-castle-connector.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.forms.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.io.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.kernel.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.layout.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.pdfa.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.sign.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.styledxmlparser.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.svg.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.commons.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
@@ -312,6 +325,7 @@ D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\M
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
@@ -326,6 +340,7 @@ D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\M
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\System.Drawing.Common.dll
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -388,3 +403,5 @@ D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\r
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ProiectPSSC.pdb
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ProiectPSSC.genruntimeconfig.cache
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\obj\Debug\net7.0\ref\ProiectPSSC.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\ProiectPSSC\bin\Debug\net7.0\itext.bouncy-castle-adapter.dll
