@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj": {}
+    "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\Data.csproj": {
+    "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\Data.csproj",
+        "projectUniqueName": "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\uie46494\\.nuget\\packages\\",
-        "outputPath": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\obj\\",
+        "projectPath": "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\robib\\.nuget\\packages\\",
+        "outputPath": "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "F:\\info\\visual studio\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\uie46494\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\robib\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,21 +85,21 @@
         }
       }
     },
-    "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj": {
+    "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\uie46494\\.nuget\\packages\\",
-        "outputPath": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Domain\\obj\\",
+        "projectPath": "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\robib\\.nuget\\packages\\",
+        "outputPath": "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "F:\\info\\visual studio\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\uie46494\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\robib\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,14 +108,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\Data.csproj": {
-                "projectPath": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\Data.csproj"
+              "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Data\\Data.csproj": {
+                "projectPath": "E:\\Faculta\\an4\\pssc\\PSSC_Proiect\\Data\\Data.csproj"
               }
             }
           }

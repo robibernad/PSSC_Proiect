@@ -3,6 +3,8 @@ using Data;
 using Domain.Models;
 using Domain.Workflow;
 using static Domain.Models.ShoppingEvent;
+using Data.Models;
+using Domain.Mappers;
 
 namespace API.Controllers
 {
@@ -110,11 +112,53 @@ namespace API.Controllers
             return Ok();
         }
 
+        [HttpPost("Add Products")]
+        public async Task<IActionResult> AddProducts([FromBody] AddProductsRequest request)
+        {
+            AddProductWorkflow addWorkflow = new AddProductWorkflow(_dbContext);
+
+            Product produs = new Product(request.ProductID, request.Name, request.Description, request.Quantity, request.Price);
+            ProductDTO produsDTO = ProductMapper.MapToProductDTO(produs);
+
+            var result = await addWorkflow.Execute(produsDTO);
+
+            bool success = false;
+
+            result.Match(
+                whenShoppingFailedEvent: @event =>
+                {
+                    success = false;
+                    return @event;
+                },
+                whenShoppingSucceedEvent: @event =>
+                {
+                    success = true;
+                    return @event;
+                }
+            );
+
+            if (!success)
+            {
+                return BadRequest();
+            }
+
+            return Ok();
+        }
+
         public class ModifyOrderRequest
         {
             public string OrderHeaderId { get; set; }
             public List<UnvalidatedProduct> UpdatedProducts { get; set; }
             public string NewAddress { get; set; }
+        }
+
+        public class AddProductsRequest
+        {
+            public string ProductID { get; set; }
+            public string Name { get; set; }
+            public string Description { get; set; }
+            public int Quantity { get; set; }
+            public float Price { get; set; }
         }
     }
 }

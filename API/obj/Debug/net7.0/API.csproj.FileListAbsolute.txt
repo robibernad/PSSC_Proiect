@@ -403,7 +403,6 @@ D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\API\obj\Debug\net7.0\API.Gener
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\API\obj\Debug\net7.0\API.AssemblyInfo.cs
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
-D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\API\obj\Debug\net7.0\API.sourcelink.json
 D:\facultate\Proiect\proiect\proiect\PSSC_Proiect\API\obj\Debug\net7.0\staticwebassets.build.json
