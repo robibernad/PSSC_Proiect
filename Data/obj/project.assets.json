@@ -3357,25 +3357,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\robib\\.nuget\\packages\\": {},
-    "F:\\info\\visual studio\\NuGetPackages": {},
+    "C:\\Users\\uie46494\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\robib\\.nuget\\packages\\",
-      "outputPath": "E:\\Faculta\\an4\\pssc\\proiect\\PSSC_Proiect\\Data\\obj\\",
+      "projectPath": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\uie46494\\.nuget\\packages\\",
+      "outputPath": "D:\\facultate\\Proiect\\proiect\\proiect\\PSSC_Proiect\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "F:\\info\\visual studio\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\robib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\uie46494\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3384,7 +3384,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

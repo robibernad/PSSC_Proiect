@@ -23,7 +23,7 @@ namespace API.Controllers
             public List<UnvalidatedProduct> Products { get; set; }
         }
 
-        [HttpPost]
+        [HttpPost("Add Order")]
     
         public async Task<IActionResult> AddOrder([FromBody]OrderRequest request)
         {
@@ -51,7 +51,7 @@ namespace API.Controllers
             return Ok();
         }
 
-        [HttpDelete()]
+        [HttpDelete("Delete Order")]
         public async Task<IActionResult> RemoveOrder(string orderHeaderId)
         {
             RemoveWorkflow removeWorkflow = new RemoveWorkflow(_dbContext);
@@ -78,6 +78,43 @@ namespace API.Controllers
             }
 
             return Ok();
+        }
+
+        [HttpPut("Modify Order")]
+        public async Task<IActionResult> ModifyOrder([FromBody] ModifyOrderRequest request)
+        {
+            ModifyWorkFlow modifyWorkflow = new ModifyWorkFlow(_dbContext);
+
+            var result = await modifyWorkflow.Execute(request.OrderHeaderId, request.UpdatedProducts, request.NewAddress);
+
+            bool success = false;
+
+            result.Match(
+                whenShoppingFailedEvent: @event =>
+                {
+                    success = false;
+                    return @event;
+                },
+                whenShoppingSucceedEvent: @event =>
+                {
+                    success = true;
+                    return @event;
+                }
+            );
+
+            if (!success)
+            {
+                return BadRequest();
+            }
+
+            return Ok();
+        }
+
+        public class ModifyOrderRequest
+        {
+            public string OrderHeaderId { get; set; }
+            public List<UnvalidatedProduct> UpdatedProducts { get; set; }
+            public string NewAddress { get; set; }
         }
     }
 }

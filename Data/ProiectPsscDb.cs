@@ -32,6 +32,7 @@ namespace Data
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer("Server=localhost;Database=PsscDb;Trusted_Connection=True;TrustServerCertificate=True");
+                //optionsBuilder.UseSqlServer("Server=localhost\\MSSQLSERVER05;Database=PsscDb;Trusted_Connection=True;TrustServerCertificate=True");
             }
         }
 
